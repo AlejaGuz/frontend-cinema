@@ -1,0 +1,18 @@
+<div>
+    <table class="tableShows">
+        <thead>
+            <tr>
+                <th>Image:</th>
+                <th>Movie Name:</th>
+                <th>Schedule:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let s of showings">
+                <td><img src={{s.urlImage}} alt="imgMovie"></td>
+                <td>{{s.movieName}}</td>
+                <td>{{s.hour}}:{{s.minutes}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

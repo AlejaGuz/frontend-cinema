@@ -1,0 +1,64 @@
+input{
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+label{
+    font-weight: bold;
+}
+
+.create{
+    text-align: center;
+    display: block;
+    border: 5px solid saddlebrown;
+    padding: 1em;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(46, 29, 148, 0.1);
+}
+
+#labelSchedule{
+    margin-right: 1em;
+    margin-top: 4em;
+}
+
+.sch{
+    border-radius: 10px;
+}
+
+.sch:hover:not(:focus){
+    background: darkorange;
+    opacity: 30%;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.btn-create{
+    border-radius: 10px;
+    background-color: #302b96;
+    color: aliceblue;
+    width: 100px;
+}
+
+.btn-create:hover{
+    background: darkorange;
+    transform: scale(1.2);
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+input:hover:not(:focus){
+    background: darkorange;
+    opacity: 30%;
+}
+
+input:focus {
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-weight: bold;
+  }
+
+@media screen and (max-width:480px){
+
+}

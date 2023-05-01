@@ -1,0 +1,24 @@
+img{
+    width: 70px;
+    height: 110px;
+}
+
+div{
+    overflow-y: scroll;
+    height: 300px;
+}
+
+table{
+    height: auto;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 1em;
+    text-align: center;
+ }
+
+ thead{
+    background-color: burlywood;
+    color: saddlebrown;
+ }

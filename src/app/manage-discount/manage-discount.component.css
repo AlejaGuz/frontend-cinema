@@ -1,0 +1,50 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input{
+    border-radius: 10px;
+}
+
+.sch{
+    width: 50px;
+}
+
+.btn-create{
+    border-radius: 10px;
+    background-color: #302b96;
+    color: aliceblue;
+    width: 100px;
+}
+
+.btn-create:hover{
+    background: darkorange;
+    transform: scale(1.2);
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.create{
+    margin-right: 2em;
+}
+
+select{
+    border-radius: 10px;
+    margin-top: 0.3em;
+}
+
+fieldset{
+
+    border: 5px solid saddlebrown;
+    border-radius: 10px;
+    padding: 1em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+legend{
+    font-weight: bold;
+}

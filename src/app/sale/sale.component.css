@@ -1,0 +1,41 @@
+button:hover:not(:disabled) {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.seatbtn{
+    background-color: lightgray;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shows select{
+    margin-left: 1.5em;
+
+    
+}
+.pantalla{
+    text-align: center;
+    font-weight: bold;
+}
+
+#sellbtn{
+    border-radius: 10px;
+    background-color: #302b96;
+    color: aliceblue;
+    width: 100px;
+}
+
+#sellbtn:hover:not(:disabled){
+    background: darkorange;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+#sellbtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

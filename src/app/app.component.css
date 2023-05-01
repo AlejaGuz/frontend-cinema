@@ -1,0 +1,50 @@
+.header{
+    height: 120px;
+    background-color: burlywood;
+}
+
+h1 img{
+    width: 100px;
+    width: 100px;
+}
+
+nav{
+    position: absolute;
+    top:80px;
+    display: flex;
+    justify-content: end;
+    right: 100px;
+}
+
+.container{
+    box-sizing: border-box;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: saddlebrown;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.routing{
+    
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    font-family: sans-serif;
+    background: linear-gradient(burlywood,lightsalmon,pink,burlywood);
+    
+
+}

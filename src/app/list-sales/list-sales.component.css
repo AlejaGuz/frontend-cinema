@@ -1,0 +1,16 @@
+.showings{
+    display: flex;
+    justify-content: center;
+}
+.sales{
+    overflow-y:scroll;
+    height: 300px;
+}
+table{
+    width:700px;
+    height: auto;
+    text-align: center;
+}
+th, td {
+    padding: 1em;
+ }
