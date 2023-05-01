@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
   templateUrl: './manage-discount.component.html',
   styleUrls: ['./manage-discount.component.css']
 })
+
 export class ManageDiscountComponent implements OnInit{
 
   hour!:number;
